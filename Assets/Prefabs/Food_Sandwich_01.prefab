@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 8190877374648914328}
   - component: {fileID: 4613707571476244684}
   - component: {fileID: -2591018974699806053}
+  - component: {fileID: 8325060020828813598}
+  - component: {fileID: 1187471769359644589}
+  - component: {fileID: -6543223715737828708}
   m_Layer: 0
   m_Name: Food_Sandwich_01
   m_TagString: Untagged
@@ -106,5 +109,46 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d9a17e9a2d4d434ba706559fd62606b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8325060020828813598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8190877374646652760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.51974, y: 0.17482021, z: 0.5152532}
+  m_Center: {x: 0, y: -0.000000022351742, z: -0.000000044703484}
+--- !u!54 &1187471769359644589
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8190877374646652760}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-6543223715737828708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8190877374646652760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af5c2a9fceebf348b995175cefce965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
